@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memorama IAS</title>
+    <link rel="icon" href="./img/logo.svg">
+    <link rel="stylesheet" href="memo.css">
+    <script src="tarjetas.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="land" class="land">
+        <div id="land-msg" class="land-msg">
+          <div class="memorama-flip">
+            <div class="title-container">
+              <div class="one">
+                <img src="./img/uanl.png" alt="">
+              </div>
+              <div class="two">
+                <span class="title" >UNIVERSIDAD AUTONÓMA DE NUEVO LEÓN</span> <br>
+                <span class="sub-title" >FACULTAD DE INGENIERÍA MECÁNICA Y
+                ELÉCTRICA
+                </span>
+              </div>
+              <div class="three">
+                <img src="./img/logo-fime-emblema.png" alt="">
+              </div>
+            </div>
+            
+            
+            <div class="dates">
+              <p>Unidad de aprendizaje: <span>Pensamiento creativo</span></p>
+              <p>Catedrático: <span>Aracely Silvia Garza</span></p>
+              <p>Equipo <span>#1</span></p>
+              <p>Semestre: <span>Febrero - Junio 2021</span></p>
+            </div>
+            <div class="info">
+              <h3><span>Elaborado por:</span></h3>
+              <p>Iván Antonio Cordova Terrones - <span>1814674</span></p>
+              <p>Raúl Abraham Barrón Garza - <span>1824499</span></p>
+              <p>Samantha Monserrat Quintanilla Correa - <span>1833784</span></p>
+              <p>Rodrigo Daniel Páez Zúñiga - <span>1739427</span></p>
+              <p>César Alejandro Hernández Puente - <span>1745628</span></p>
+            </div>
+            <button class="btn-play" onclick="javascript:playNow();">Jugar &#9658;</button>
+          </div>
+        </div>    
+      </div>
+      <div class="memorama-container">
+        <div class="memorama-header">
+          <h2>Memorama de lenguajes de programación</h2>
+          <h3>Producto Integrador de Aprendizaje    <br>    Equipo: IAS</h3>
+        </div>
+      </div>
+      <div id="result" class="land land-hide"> 
+          <div id="result-content" class="land-msg">
+            <span id="result-msg" class="result-msg"></span>
+            <button class="btn-play btn-play-again" onclick="javascript:playAgain();">Volver a jugar &#9658;</button>    
+          </div>
+      </div>  
+          
+      <div id="game"><ul class="flex-container" id="cards"></ul>
+      </div>
+
+
+</body>
+</html>
